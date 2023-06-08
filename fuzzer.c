@@ -5,7 +5,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <string.h>
-#include <pthread.h>
+#include <pthread.h> 
+#include <ctype.h>
 
 #define MAX_THREADS 128
 
